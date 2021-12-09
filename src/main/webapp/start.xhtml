@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+      
+
+<h:head>
+  <h:outputStylesheet library = "css" name = "main.css" />
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png"></link>
+  <meta name="description" content="Lab3"></meta>
+  <meta name="author" content="Ryabikin Aleksey P3215"></meta>
+<!--  <link rel="stylesheet" href="css/main.css"/>-->
+<!--  <h:outputStylesheet></h:outputStylesheet>-->
+
+  <title>Lab3</title>
+
+</h:head>
+<h:body>
+  <div id="container">
+    <div class="text">
+      <p>[Lab3]<br />[Ryabikin Aleksey]<br />[P3215]</p>
+    </div>
+    <h:button id="btn" outcome="index" value="Enter"></h:button>
+  </div>  
+  <p class="time" id="time">00:00:00</p>
+  <div class="col-lg-12">
+  <div class="icons">
+<!--    <a target = "_blank" href="https://github.com/SamaraGorodok" ><img id= "git" src="img/github.png" /></a>-->
+    <a target = "_blank" href="https://github.com/SamaraGorodok" ><h:graphicImage library="img" id="git" name="github.png"/></a>
+    <a target = "_blank" href="https://vk.com/fffrr0" ><h:graphicImage library="img" id="vk" name="vk.png"/></a>
+<!--    <a target = "_blank" href="https://vk.com/fffrr0" ><img id ="vk" src="img/vk.png" /></a>-->
+    
+  </div>
+</div>
+  
+  
+
+
+<!--  <script src="js/Time.js"></script>-->
+  <h:outputScript library="js" name="Time.js"/>
+
+</h:body>
+</html>

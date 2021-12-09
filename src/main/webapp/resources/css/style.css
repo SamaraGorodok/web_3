@@ -1,0 +1,30 @@
+/*
+
+.ch{
+    height: 100px;
+    display: inline-block;
+}
+*/
+.linebloc{
+
+    margin-left: 100px;
+    width: 33%;
+    height: 100px;
+    text-align: center;
+}
+table{
+    width: 100%;
+     border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border: 2px solid white; /* Прячем рамку вокруг таблицы */
+    margin: auto;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;/*Button Color*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    border: none;
+}
